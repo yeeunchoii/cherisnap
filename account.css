@@ -1,0 +1,352 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container{
+    margin: 0 auto;
+    width: 1240px; height: 1470px;
+    position: relative;
+    background-image: url(images/back55.png);
+    background-size: cover;
+}
+
+.circle{
+    position: absolute;
+    width: 690px; height: 650px;
+    /* background-color: #fde8ba; */
+    background: url(images/back0.jpg);
+    opacity: 0.7; 
+    background-size: cover;
+    border-radius: 100%;
+    left: 50px; top: 140px;
+} 
+
+#menu{
+    width: 1240px;
+    height: 70px; 
+    /* border: 2px solid navy;  */
+    margin-bottom: 30px;
+    background-color: #feecc5;
+}
+.logo{
+    position: relative;
+   left: 50px; top: 7px;
+    
+}
+
+.menuBar{
+    list-style: none;
+    position: relative;
+    left: 140px; bottom: 2px;
+    text-decoration: none;
+    /* overflow: hidden; */
+ 
+}
+.menuBar>li{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 20px; 
+    bottom: 80px;
+    padding: 10px 11px;  
+    font-size: 17px; font-weight: 300;
+}
+
+
+.menuBar>li>a{
+    text-decoration: none;
+    font-weight: 800;
+    color: black;
+  
+}
+
+.menuBar>li>a:hover{
+    display: inline-block;
+    width: auto; height: 3px;
+    background-color: #F48282;
+}
+#content{
+    width: 1240px;
+    height: auto;
+}
+
+#memberArea .joinus{
+    display: none;
+}
+
+.phase{
+    width: 1000px; height: 200px;
+    text-align: center;
+    position: relative;
+    left: 100px;  top: 70px;
+   
+}
+
+.create{
+    font-size: 44px; font-weight: 2000;
+    color: rgb(255, 244, 231);
+    text-shadow: 2px 2px 2px rgb(99, 98, 98);
+}
+
+.signup{
+    font-size: 25px; 
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ef818176;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px rgb(99, 98, 98);
+}
+.pp{
+    font-size: 21px;
+    color: rgb(110, 99, 99);
+}
+
+
+
+
+fieldset{
+    width: 805px;
+    border-radius: 100%;
+    border: 1px rgb(253, 244, 239);
+    position: relative;
+    left: -15px;
+    background-color: #ffe9b8e0;
+}
+
+
+.signup{
+    position: relative;
+    left: 10px;
+    color: #fb5a5ad5;
+    text-shadow: 2px 1px 2px rgb(99, 98, 98);
+}
+#memberArea{
+    width: 735px;
+    margin-right: 30px;
+    position: relative;
+    left: 260px; top: 100px;
+    border-radius: 90%;
+    border: 1px seashell;
+    
+}
+
+.location{
+    position: absolute;
+    top: 18px;
+    right: 30px;
+
+}
+
+
+#memberArea h2{
+    font-size: 1.5em;
+    font-family: "NanumEx";
+    color: rgb(227, 90, 66);
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+    border-bottom:2px solid tomato;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+
+}
+
+.formSign{
+    text-align: right;
+    margin: 30px 0 10px;
+}
+
+
+.require{
+    display: inline-block;
+    width: 10px;
+    height: 12px;
+    white-space: nowrap;
+    text-indent: 10px;
+    overflow: hidden;
+}
+
+.require::before{
+    font-family: "webcafeIcon";
+    content: "s";
+    color: rgb(246, 117, 94);
+    position: relative;
+    left: -10px;
+}
+
+
+
+#joinForm p{
+    /* border-bottom: 1px solid #ccc; */
+    overflow: hidden;
+    position: relative; top: 10px;
+    margin-top: 18px;
+}
+
+#joinForm label, .mailing em{
+    float: left;
+    width: 140px;
+    padding: 20px 30px;
+    margin-left: 85px;
+    margin-right: 20px;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: rgb(56, 49, 49);
+    border-radius: 6px;
+}
+
+
+#joinForm .mailing label{
+    float: none;
+    padding: 0;
+    width: auto;
+    background: none;
+    position: relative;
+    font-size: 1.1em;
+    left: 200px;top: 0px;
+}
+
+
+#joinForm input{
+    margin: 13px 0;
+}
+
+#joinForm input:not([type="radio"]){
+    border: 1px solid #feecc5;
+    border-radius: 8px;
+    height: 33px;
+    padding-left: 10px;
+}
+
+a.idCheck , a.findZipcode{
+    font-family: "NanumEx";
+    font-size: 0.8em;
+    background-color: #de6f60cf;
+    color: #fff;
+    padding: 3px 15px;
+    margin-left: 3px; margin-top: 3px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px #de676c,
+                 1px -1px 1px #de676c;
+}
+
+a.findZipcode{
+    position: absolute;
+    left: 315px;
+    top: 16px;
+}
+
+input#address{
+    display: block;
+    
+    margin: 0;
+}
+
+.labelAddress{
+    height: 60px;
+    line-height: 50px;
+    
+}
+
+.mailing em{
+    font-style: normal;
+    color: rgb(110, 99, 99);
+    height: 35px;
+    line-height: 45px;
+    
+}
+
+.mailing span{
+    display: block;
+    position: relative;
+    top: 17px; font-size: 1.2em;
+   
+    color: rgb(110, 99, 99);
+    font-weight: 600;
+    text-align: center;
+    margin: 19px 0;
+}
+
+
+.mailing > input{
+   position: relative;
+ 
+   left: 200px;
+}
+
+
+
+.btnJoinArea{
+    /* border: 1px solid black; */
+    position: relative;
+    top: 49px;  right: 60px;
+    padding: 15px;
+}
+
+.btnCancel{
+    position: absolute;
+    left: 320px; bottom: 5px;
+    padding: 8px;
+    font-size: 15px;
+    color: #fff;
+    border: 1px solid #ED796A;
+    background-color: #de6f60cf;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btnOk{
+    position: absolute;
+    left: 520px; bottom: 5px;
+    padding: 8px;
+    font-size: 15px;
+    color: #fff;
+    border: 1px solid #ED796A;
+    background-color: #de6f60cf;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+footer{
+    background: #feecc5;
+    margin: 0 auto;
+    width: 1240px;
+     height: 100px;
+     /* border: 2px solid navy; */
+     margin-top: 180px;
+     position: absolute;
+  
+ }
+ 
+
+ #footer_item{
+     position: relative;
+     left: 540px; top: 15px;
+ }
+ 
+ .facebook{
+     width: 30px;width: 57px;
+     position: absolute;
+     left: 125px; top: 3px;
+ }
+ 
+ .insta{
+     width: 55px;height: 41px;
+     position: absolute;
+     left:80px; top: 2px;
+ }
+ 
+ .email{
+     width: 33px; height: 27px;
+     position: absolute;
+     top:9px; left: 42px;
+ }
+ 
+ .yeeun-inc{
+     position: absolute;
+     top: 50px; left: -16px;
+ }

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>account</title>
+    <link rel="stylesheet" href="account.css">
+</head>
+<body>
+    <div id="container">
+    <div id="menu">
+        <a href="index.html"><img class="logo" src="images/logo.png" alt="logo"></a> 
+        <nav>
+         <!-- 메뉴 -->
+         <ul class="menuBar">
+            <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="location.html">Contact us</a></li>
+         </ul>
+        </nav>
+    </div>
+
+    <div id="content">
+        <div class="circle"></div>
+        <div class="phase">
+        <h1 class="create">Create Account</h1>
+        <p class="pp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quos dicta corrupti temporibus harum officiis unde itaque quibusdam, incidunt doloribus voluptatem alias praesentium mollitia rerum, sunt, placeat recusandae exercitationem animi.</p>
+        </div>
+        <div id="info">
+            <section id="memberArea">
+                <h2 class="joinus">Join us</h2>
+                <!-- <p class="formSign"><strong class="require">필수</strong>는 반드시 입력하여야 하는 항목입니다.</p> -->
+                <form action="join.jsp" method="post" id="joinForm" name="joinForm">
+                    <fieldset>
+                         <legend class="signup">Sign up for account</legend> 
+                        <p>
+                            <label for="name">name</label>
+                            <input type="text" id="name" name="name" required placeholder="Yeeun Choi">
+                        </p>
+                        <p>
+                            <label for="id">ID</label>
+                            <input type="text" name="id" id="id" required placeholder="Guest">
+                            <a href="pop_idCheck.html" class="idCheck">ID confirm</a>
+                        </p>
+                        <p>
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" required placeholder="영문/숫자 6~10자 이내">
+                        </p>
+                        <p>
+                            <label for="confirmPassword">Confirm</label>
+                            <input type="password" name="confirmPassword" id="confirmPassword" required>
+                        </p>
+                        <p>
+                            <label for="address" class="labelAddress">Address</label>
+                            <a href="find_zipcode.html" class="findZipcode">findZipcode</a>
+                            <input type="tel" name="zipcode" id="zipcode" maxlength="5" size="6" title="우편번호">
+                            <input type="text" name="address" id="address" maxlength="100" size="60" placeholder="예)서울시 종로구 관철동 11번지">
+                        </p>
+                        <p>
+                            <label for="tel">Tel</label>
+                            <input type="tel" id="tel" name="tel" maxlength="11" size="20" title="하이픈(-)은 입력 할 수 없습니다." placeholder="예)01012345678">
+                        </p>
+                        <p>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" size="20" required placeholder="예)ezen@hamil.com">
+                        </p>
+                        
+                        <p class="mailing">
+                            <span>Would you like to join a mailing list where you can receive our multiple information?</span>
+                            <label for="mailingOk">Yes</label>
+                            <input id="mailingOk" type="radio" name="mailing"  value="Yes" checked>
+                            <label for="mailingNo">No</label>
+                            <input id="mailingNo" type="radio" name="mailing"  value="No">
+                        </p>
+                    </fieldset>
+                </form>
+                <div class="btnJoinArea">
+                    <button type="reset" class="btnCancel">Cancle</button>
+                    <button type="submit" class="btnOk">Join</button>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <footer>
+        <div id="footer_item">
+        <a href="https://www.google.com/"><img class="email" src="images/email.svg" alt="email"></a>
+        <a href="https://www.instagram.com"><img class="insta" src="images/insta.png" alt="insta"></a>
+        <a href="https://www.facebook.com/"><img class="facebook" src="images/facebook.png" alt="facebook"></a>
+        <a href="#" ></a><div class="yeeun-inc">
+            © Yeeun, Inc. 2022. We love our users!
+          </div>
+           
+            </div>
+    </footer>
+</div>
+</body>
+</html>

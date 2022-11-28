@@ -1,0 +1,227 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+#container{
+    margin: 0 auto;
+    width: 1240px;
+    background: url(images/back55.png);
+    background-size: cover;
+    position: relative;
+   
+}
+
+
+
+#menu{
+    width: 1240px;
+    height: 70px;
+    /* border: 2px solid navy; */
+    margin-bottom: 30px;
+    background-color: #feecc5;
+}
+
+.menuBar{
+    list-style: none;
+    position: relative;
+    left: 140px; 
+    text-decoration: none;
+    /* overflow: hidden; */
+ 
+}
+.menuBar>li{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 20px; 
+    bottom: 70px;
+    padding: 10px 11px;  
+    font-size: 17px; font-weight: 300;
+}
+
+.logo{
+    position: relative;
+   left: 50px; top: 15px;
+   width: 75px; height: 50px;
+    
+}
+
+.menuBar>li>a{
+    text-decoration: none;
+    font-weight: 1000;
+    color: black;
+}
+
+
+.menuBar>li>a:hover{
+    display: inline-block;
+    width: auto; height: 3px;
+    background-color:#F48282;
+
+}
+
+
+#title{
+    position: relative;
+  
+    height: 300px;
+    padding: 10px; 
+    /* margin-bottom: 50px; */
+    margin-top: -99px;
+    background: url(images/back55.png);
+    background-size: cover;
+}
+
+.h1about{
+    font-size: 44px; font-weight: 2000;
+    color: rgb(255, 244, 231);
+    text-shadow: 2px 2px 2px rgb(99, 98, 98);
+    margin-left: 20px; margin-top: 60px;
+}
+
+.doyou{
+    font-size: 1.7em;
+    font-weight: bold;
+    color: #f87272d5;
+    text-shadow: 1px 1px 2px rgb(99, 98, 98);
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.slider_panel{
+    width: 3720px;
+    position: relative;
+   
+}
+
+.slider_panel>button{
+    position: absolute;
+    top: 560px; left: 1240px;
+}
+
+
+.slider_images{
+   
+    width: 1240px;height: 600px;
+    float: left;  
+   
+}
+
+
+.animation_canvas{
+    position: relative;
+    width: 1240px; height: 600px;
+    overflow: hidden;
+    
+}
+
+
+
+   
+
+
+.left_right_control_panel{
+    position: absolute;
+    top: 190px; left: 20px;
+    cursor: pointer;
+}
+.left_control{
+    position: absolute;
+    left: 10px; top: 60px;
+    
+}
+.right_control{
+    position: absolute;
+    left: 1170px;top: 70px;
+}
+
+.control_panel{
+    position: absolute;
+    top: 380px;
+     left: 270px; 
+     height: 13px;
+    overflow: hidden;
+}
+
+#texts{
+    height: 400px;
+    background-image: url(images/back55.png);
+    
+}
+.text1{
+    position: relative;
+    top: 50px;
+    left: 10px;
+    font-size: 1.4em;
+    padding: 20px;
+    text-align: center;
+    font-weight:800;
+    color: rgb(72, 63, 63);
+   
+   
+}
+
+.text2{
+    position: relative;
+    left: 10px;
+    font-size: 1.4em;
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight:800;
+    color: rgb(72, 63, 63);
+    
+   
+}
+
+
+
+
+
+footer{
+    width: 1240px;
+    position: relative;
+    /* left: 92px; */
+    background: #feecc5;
+     height: 100px;
+     /* border: 2px solid navy; */
+  
+  
+ }
+ 
+ 
+ 
+ #footer_item{
+     position: relative;
+     left: 530px; top: 15px;
+ }
+ 
+ .facebook{
+     width: 30px;width: 57px;
+     position: absolute;
+     left: 125px; top: 3px;
+ }
+ 
+ .insta{
+     width: 55px;height: 41px;
+     position: absolute;
+     left:80px; top: 2px;
+ }
+ 
+ .email{
+     width: 33px; height: 27px;
+     position: absolute;
+     top:9px; left: 42px;
+ }
+ 
+ .yeeun-inc{
+     position: absolute;
+     top: 50px; left: -16px;
+ }

@@ -1,0 +1,412 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Montserrat:wght@300&display=swap');
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#container{
+    margin: 0 auto;
+    width: 1240px;
+    background: url(images/back55.png);
+    background-size: cover;
+    position: relative;
+}
+
+#menu{
+    width: 1240px;
+    height: 70px;
+    /* border: 2px solid navy; */
+  ;
+    background-color: #feecc5;
+}
+
+.menuBar{
+    list-style: none;
+    position: relative;
+    left: 140px; 
+    text-decoration: none;
+    /* overflow: hidden; */
+ 
+}
+.menuBar>li{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 20px; 
+    bottom: 70px;
+    padding: 10px 11px;  
+    font-size: 17px; font-weight: 300;
+}
+
+.logo{
+    position: relative;
+   left: 50px; top: 15px;
+   width: 75px; height: 50px;
+}
+
+.menuBar>li>a{
+    text-decoration: none;
+    font-weight: 1000;
+    color: black;
+  
+}
+
+.menuBar>li>a:hover{
+    display: inline-block;
+    width: auto; height: 3px;
+    background-color:#F48282;
+
+}
+
+
+#content1{
+    width: 1240px;
+    height: 800px;
+    /* border: 2px solid navy; */
+    position: relative;
+    /* background: url(images/le-petale-.jpg) no-repeat;
+    background-size: cover; */
+}
+
+.animation_canvas{
+    position: relative;
+    bottom: 30px;
+    width: 1240px; height: 790px;
+    overflow: hidden;
+}
+
+
+
+.back{
+    width: 1240px;
+    height: 800px; float: left;
+}
+
+.back_images{
+    width: 3720px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.back_images>button{
+    position: absolute;
+    top: 560px; left: 1240px;
+}
+
+
+
+
+
+.title1{
+    position: absolute;
+    left: 670px;
+    top: 10px;
+    font-size: 45px;
+    font-weight: 1000;
+    color: rgb(245, 238, 231); 
+    text-shadow: 2px 2px 2px rgb(99, 98, 98);
+    
+    
+}
+
+.content1p{
+    position: absolute;
+    top: 127px;
+    left: 713px;
+    font-size: 33px;
+    font-weight: 900;
+    color: rgb(94, 77, 77);
+   
+}
+
+.a_link {
+    position: relative;
+    top: 50.3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+
+.button_link{
+    width: 110px; height: 29px;
+    /* position:absolute;
+    top: 570px; left: 440px; */
+    border: 1px solid #ED796A;
+    border-radius: 10px;
+    background-color: #de6f60cf;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 35px;
+    padding-top: 3px;
+}
+
+/* .btn2 a{
+    width: 110px; height: 29px;
+    position: absolute;
+    top: 570px; left: 675px;
+    border: 1px solid #ED796A;
+    border-radius: 10px;
+    background-color: #de6f60cf;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 900;
+    cursor: pointer;
+    text-decoration: none;
+} */
+
+
+#sukima{
+    width: 1240px; height: 600px;
+    background: url(images/back0.jpg);
+    background-size: cover;
+    position: relative; top: 50px;
+    
+
+}
+
+.sukih1{
+    position: absolute;
+    left: 300px; top: 150px;
+    font-size: 50px;
+    /* text-shadow: 1px 2px 3px rgb(245, 184, 70);  */
+    /* text-shadow: 2px 2px 2px rgb(203, 197, 197); */
+    /* color: rgb(245, 224, 201); */
+    color: #f4828276;
+    text-shadow: 2px 2px 2px rgb(99, 98, 98);
+
+}
+
+.sukip{
+    position: absolute;
+    left: 420px; top: 240px;
+    font-size: 24px; font-weight: 900;
+    color: rgb(110, 99, 99);
+}
+
+
+#content2{
+    width: 1240px;
+    height: auto;
+    
+}
+
+.Concepts{
+    position: relative;
+    left: 900px; top: 110px;
+    font-size: 44px; font-weight: 1000;
+    color: rgb(255, 244, 231);
+    text-shadow: 2px 2px 2px rgb(99, 98, 98);
+}
+.h2p{
+    position: relative;
+    left: 50px; top: 50px;
+    font-size: 33px;
+    color: rgb(110, 99, 99); 
+
+    text-shadow: 2px 2px 2px rgb(188, 155, 155);
+
+}
+.h2pa{
+    position: relative;
+    left: 890px; top: 20px;
+    font-size: 33px;
+    color: rgb(110, 99, 99);
+    text-shadow: 2px 2px 2px rgb(188, 155, 155);
+}
+
+.h2va{
+    position: relative;
+    font-size: 33px; 
+    left: 790px; top: 200px;
+    color: rgb(110, 99, 99);
+    text-shadow: 2px 2px 2px rgb(188, 155, 155);
+}
+#picnic{
+    position: relative;
+    top: 130px;
+}
+
+#party{
+    position: relative;
+    top: 60px;
+}
+
+#vacation{
+    position: relative;
+    top: 30px;
+}
+
+#picnic_area{
+    width: 1240px; height: 800px;
+    position: relative;
+    top: 50px;
+    /* border: 1px solid navy; */
+}
+
+#party_area{
+    position: relative;
+    top: 40px;
+    width: 1240px; height: 830px;
+    /* border: 1px solid navy;  */
+}
+
+#vacation_area{
+    position: relative;
+    top: 40px;
+    width: 1240px; height: 1300px;
+    /* border: 1px solid navy;   */
+    overflow: hidden;
+}
+
+
+.picnicpic{
+    width: 690px;height: 540px;
+    position: relative;
+    left: 70px; bottom: 650px;
+    border-radius: 30px;
+}
+
+.partypic{
+    
+    width: 700px; height: 470px;
+    position: relative;
+    top: 140px; left: 60px;
+    border-radius: 30px;
+}
+
+.vacatpic1{
+    width: 500px; height: 520px;
+    position: relative;
+    top: 120px; left: 130px;
+}
+
+.vacatpic2{
+    width: 420px;height: 420px;
+    position: relative;
+    top: 120px; left: 85px;
+}
+#circle1{
+    width: 830px; height: 760px;
+    background: url(images/back55.png) no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    float: left;
+    border: 2px solid rgb(253, 225, 206) ;
+  
+}
+
+#circle2{
+    width: 820px; height: 760px;
+    background: url(images/back55.png) no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    float: right;
+    border: 2px solid rgb(250, 234, 223) ;
+    
+}
+
+#circle3{
+    width: 850px;height: 800px;
+    background: url(images/back55.png) no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    position: absolute;
+    border: 2px solid rgb(251, 237, 227) ;
+    
+
+}
+
+
+#circle4{
+    width: 750px; height: 700px;
+    background: url(images/back55.png) no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    border: 2px solid rgb(251, 237, 227);
+    
+    position: absolute;
+    left: 700px; top: 320px;
+}
+
+.picnic_ex{
+    position: absolute;
+    left: 850px; top: 25%; right: 50px;
+    font-size: 23px; font-weight:500;
+    color: rgb(83, 65, 65);
+}
+
+.party_ex{
+    position: absolute;
+    right: 850px; top: 36%; left: 50px;
+    font-size: 23px; font-weight:500;
+    color: rgb(83, 65, 65);
+}
+
+.vacation_ex{
+    position: absolute;
+    width: 360px;
+    top: 63%; font-size: 23px;
+    left: 280px; font-weight:500;
+    color: rgb(83, 65, 65);
+}
+
+
+.seemore{
+    color: #fff;
+    font-size: 20px;
+    padding: 6px;
+    text-decoration: none;
+    position: relative;
+    left: 1000px; bottom: 30px;
+    background-color: #de6f60cf;
+    border: #ED796A;
+    border-radius: 10px;
+}
+
+
+
+footer{
+    margin: 0 auto;
+    width: 1240px;
+    position: relative;
+    background: #feecc5;
+     height: 100px;
+     /* border: 2px solid navy; */
+  
+  
+ }
+ #footer_item{
+     position: relative;
+     left: 530px; top: 15px;
+ }
+ 
+ .facebook{
+     width: 30px;width: 57px;
+     position: absolute;
+     left: 125px; top: 3px;
+ }
+ 
+ .insta{
+     width: 55px;height: 41px;
+     position: absolute;
+     left:80px; top: 2px;
+ }
+ 
+ .email{
+     width: 33px; height: 27px;
+     position: absolute;
+     top:9px; left: 42px;
+ }
+ 
+ .yeeun-inc{
+     position: absolute;
+     top: 50px; left: -16px;
+ }

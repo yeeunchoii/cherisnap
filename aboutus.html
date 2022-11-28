@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about us</title>
+   <link rel="stylesheet" href="aboutus.css">
+   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script src="js/jquery-3.6.0.min.js"></script>	
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+
+
+<body>
+    <div id="container">
+        <div id="menu">
+           <a href="index.html"><img class="logo" src="images/logo.png" alt="logo"></a> 
+            <nav>
+             <!-- 메뉴 -->
+             <ul class="menuBar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="location.html">Contact us</a></li>
+             </ul>
+            </nav>
+            <div id="circlesmall"></div> 
+            <div id="contents">
+                <div id="title">
+                <h1 class="h1about">About Cherisnap</h1>
+                <h2 class="doyou">Do you want to leave your happy moments?</h2>
+                </div>
+
+                
+                <div class="animation_canvas">
+                    <!-- 이미지 슬라이더는 이미지 한개 담을 크기 -->
+                    <div class="slider_panel">
+                        <!-- 이미지 패널: 움직이는 이미지가 전환되는 효과 -->
+                        <img class="slider_images" src="images/slideshow/Rectangle313.png" alt="park">
+                        <img class="slider_images" src="images/slideshow/Rectangle314.png" alt="picnic">
+                        <img class="slider_images" src="images/slideshow/Rectangle315.png" alt="man">
+                        <img class="slider_images" src="images/slideshow/Rectangle316.png" alt="party">
+                        <img class="slider_images" src="images/slideshow/Rectangle317.png" alt="woman">
+                    </div>
+                    
+                    
+                </div>
+            <div id="texts">
+                <div class="text1">
+                    <p>Enjoy happy moments with the people you love! <br>
+                        We'll take pictures! <br>
+                        Aren't you looking forward to your expression that you don't know?</p>
+                </div>
+                <div class="text2">
+                    <p>Our goal is to capture <br>
+                    the emotions you feel when you are with your loved ones. </p>
+                </div>
+            </div>
+
+            <footer>
+                <!-- 푸터 -->
+                <div id="footer_item">
+                    <a href="https://www.google.com/"><img class="email" src="images/email.svg" alt="email"></a>
+                    <a href="https://www.instagram.com"><img class="insta" src="images/insta.png" alt="insta"></a>
+                    <a href="https://www.facebook.com/"><img class="facebook" src="images/facebook.png" alt="facebook"></a>
+                    <a href="#" ></a><div class="yeeun-inc">
+                        © Yeeun, Inc. 2022. We love our users!
+                      </div>
+                       
+                        </div>
+                </footer>
+        </div>  
+        </div>   
+    </div>
+
+				
+<script>
+
+$('.slider_panel').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 1200,
+});
+</script>
+
+</body>
+
+</html>
